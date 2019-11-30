@@ -46,7 +46,7 @@ const salesData = (hours, data) => {
     let sales = [];
     data.forEach((value, idx) => {
         sales.push({
-            sales: value + ' cookies',
+            sales: `${value} cookies`,
             time: hours[idx]
         });
     });
